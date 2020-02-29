@@ -11,6 +11,13 @@ public class Principal {
 		
 		System.out.println(cochePilar.estadoCoche());
 		
+		//Coche Javier
+		Coche cocheJavier = new Coche ("2196CBW","Porsche","911","Black" );
+		cocheJavier.acelerar(50);
+		cocheJavier.frenar(23);
+		
+		System.out.println(cocheJavier.estadoCoche());
+		
 		
 	}
 
